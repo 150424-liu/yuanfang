@@ -1,0 +1,224 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+/* 头部-S */
+.head{
+	dis
+	width: 70%;
+	margin-left: 15%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.logo{
+	margin-left: -20px;
+	margin-top: -12px;
+	position:absolute;
+}
+.logo img{
+	margin-bottom: -10px;
+}
+.nav{
+	display: inline-block;
+	padding-left: 208px;
+}
+.nav li{
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 50px;
+}
+.nav a{
+	color: #494949;
+}
+.nav a:hover{
+	background-color: #1A924B;
+	color: white;
+	border-radius: 10px;
+}
+.roid{
+	position: relative;
+}
+.roid_txet {
+	padding-top: 5px;
+	position: absolute;
+	display: none;
+	color: white;
+	height: 80px;
+}
+
+.roid:hover .roid_txet {
+	display: block;
+}
+/* 头部-E */
+/* 头部图片-S */
+.head_img{
+	width: 100%;
+	height: 200px;
+}
+.head_img img{
+	width: 100%;
+	height: 300px;
+}
+.head_img_text{
+	margin-top: -220px;
+	text-align: center;
+}
+.head_img_text h2{
+	color: white;
+		font-size: 50px;
+		letter-spacing: 20px;
+}
+.head_img_text h2 a{
+	margin-left: 5px;
+	color: #1A924B;
+	letter-spacing: 20px;
+}
+.head_img_text p{
+	color: white;
+	letter-spacing: 20px;
+	padding-top: 20px;
+}
+/* 图片hover分界线 */
+.head_img_flex{
+	/* width: 1530px; */
+	display: flex;
+	/* justify-content: center;
+	flex-wrap: wrap; */
+}
+.color{
+	position: absolute;
+	background-color:rgba(0,0,0,0.5);
+	width: 252.5px;
+	height: 150px;
+	margin-top: -154px;
+	display: block;
+}
+.color p{
+	color: white;
+	margin-top: 54px;
+	text-align: center;
+}
+.color_footer{
+	position: absolute;
+	width: 252.5px;
+	height: 35px;
+	background-color: #1A924B;
+	margin-top: -39px;
+	display: none;
+}
+.color_footer p{
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+.flex_img{
+	width: 252.5px;
+	height: 150px;
+	margin-top: 110px;
+}
+.flex_img img{
+	width: 252.5px;
+	height: 150px;
+}
+.flex_img:hover .color{
+	display: none;
+}
+.flex_img:hover .color_footer{
+	display: block;
+}
+/* 头部图片-E */
+/* 科技研发产业-S */
+.science{
+	margin-top: 251px;
+	width: 100%;
+	background-color:#eeeeee;
+	padding-bottom: 40px;
+}
+.science_head{
+	text-align: center;
+	/* padding-top: 60px; */
+}
+.science_text{
+	margin-top: 100px;
+	width: 60%;
+	margin-left: 15%;
+	height: 220px;
+	background-color: white;
+}
+.science_text p{
+	width: 600px;
+	text-indent: 2em;
+	color: #464646;
+	padding: 10px;
+}
+.science_text_img img{
+	height: 220px;
+	margin-top: -220px;
+	margin-left: 642px;
+}
+.science_four_img img{
+	height: 220px;
+	margin-top: -160px;
+	margin-left: 642px;
+}
+.one img{
+	margin-top: -31px;
+	margin-left: 15px;
+}
+.one span{
+	position: absolute;
+    margin-top: -35px;
+    margin-left: 8px;
+	font-size: 25px;
+	color: #1C914D;
+}
+.two img{
+	margin-top: -31px;
+	margin-left: 15px;
+}
+.two span{
+	position: absolute;
+    margin-top: -35px;
+    margin-left: 8px;
+	font-size: 25px;
+	color: #1C914D;
+}
+.three img{
+	margin-top: -31px;
+	margin-left: 15px;
+}
+.three span{
+	position: absolute;
+    margin-top: -35px;
+    margin-left: 8px;
+	font-size: 25px;
+	color: #1C914D;
+}
+.three img{
+	margin-top: -31px;
+	margin-left: 15px;
+}
+.three span{
+	position: absolute;
+    margin-top: -35px;
+    margin-left: 8px;
+	font-size: 25px;
+	color: #1C914D;
+}
+.four img{
+	margin-top: -31px;
+	margin-left: 15px;
+}
+.four span{
+	position: absolute;
+    margin-top: -35px;
+    margin-left: 8px;
+	font-size: 25px;
+	color: #1C914D;
+}
+
+
+/* 科技研发产业-E */
